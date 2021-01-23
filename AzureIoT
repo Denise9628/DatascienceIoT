@@ -1,9 +1,13 @@
 import random  
 import Adafruit_DHT
 import time
+
+
 from azure.iot.device import IoTHubDeviceClient, Message  
 sensor = Adafruit_DHT.DHT11
 pin = 4
+
+
 CONNECTION_STRING = "HostName=xxxxxxxx;DeviceId=xxxxxx;SharedAccessKey=xxxxxxxxxxxxxxxxxxx" 
 MSG_SND = '{{"temperature": {temperature},"humidity": {humidity}}}' 
 while True:
