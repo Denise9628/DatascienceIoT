@@ -33,6 +33,4 @@ while True:
             print ( "IoTHubClient stopped" )  
             
             
-    if __name__ == '__main__':  
-        print ( "Press Ctrl-C to exit" )  
-        iothub_client_telemetry_sample_run()
+   
